@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS:GO Skins Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="webgl-utils.js"></script>
+    <script src="webgl.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <a href="#" class="logo">CS:GO Skins Store</a>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Skins</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to the CS:GO Skins Store</h1>
+        <p>Explore a wide range of beautiful skins for your favorite CS:GO weapons.</p>
+        <a href="#" class="btn">Shop Now</a>
+    </section>
+
+    <section class="skins">
+        <div class="container">
+            <div class="skin">
+                <img src="skin1.jpg" alt="Skin 1">
+                <h3>Skin 1</h3>
+                <p>Description of Skin 1</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="skin">
+                <img src="skin2.jpg" alt="Skin 2">
+                <h3>Skin 2</h3>
+                <p>Description of Skin 2</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 CS:GO Skins Store. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        // Include your WebGL script here
+        window.onload = function() {
+            const canvas = document.createElement("canvas");
+            document.body.appendChild(canvas);
+            initWebGL(canvas);
+        };
+    </script>
+</body>
+</html>
