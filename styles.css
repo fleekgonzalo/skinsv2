@@ -16,6 +16,8 @@ canvas {
 /* Global styles */
 body {
     font-family: Arial, sans-serif;
+    margin: 0; /* Add this line to remove the default margin */
+    overflow: hidden; /* Add this line to prevent scrollbars from appearing */
 }
 
 .container {
