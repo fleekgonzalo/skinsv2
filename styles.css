@@ -24,7 +24,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    height: 100vh; /* Set the container height to 100% of the viewport height */
+    /* height: 100vh; /* Set the container height to 100% of the viewport height */ */
     overflow-y: auto; /* Enable vertical scrolling for the container */
 }
 
