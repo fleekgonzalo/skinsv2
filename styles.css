@@ -24,6 +24,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    min-height: calc(100vh - 40px); /* Subtract the header height from the viewport height */
 }
 
 /* Header styles */
