@@ -30,13 +30,14 @@ body {
 
 .header {
     background: linear-gradient(to right, #ff00ff, #0000ff, #00ffff, #00ff00, #ffff00, #ff0000);
-    background-size: 600% 100%;
-    animation: rainbow 10s linear infinite;
+    background-size: 800% 100%;
+    animation: rainbow 5s linear infinite;
     padding: 20px 0;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 @keyframes rainbow {
@@ -63,6 +64,14 @@ body {
 
 .nav-links li {
     margin-left: 20px;
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    padding-right: 10px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+    border-right: none;
+    padding-right: 0;
 }
 
 .nav-links li a {
@@ -75,11 +84,6 @@ body {
 .nav-links li a:hover {
     color: #888;
 }
-
-.nav-links li:last-child {
-    margin-right: 0;
-}
-
 .logo {
     color: #fff;
     font-size: 20px;
@@ -89,14 +93,13 @@ body {
 
 /* Hero section styles */
 .hero {
-    background-color: #f2f2f2;
+    background: linear-gradient(to right, #ff00ff, #0000ff, #00ffff, #00ff00, #ffff00, #ff0000);
+    background-size: 800% 100%;
+    animation: rainbow 5s linear infinite;
     text-align: center;
-    padding: 30px 0;
-    height: 300px; /* Adjust the desired height */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 100px 0;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero h1 {
@@ -106,7 +109,22 @@ body {
 
 .hero p {
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #888;
 }
 
 .btn {
