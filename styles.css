@@ -30,8 +30,8 @@ body {
 
 .header {
     background: linear-gradient(to right, #ff00ff, #0000ff, #00ffff, #00ff00, #ffff00, #ff0000);
-    background-size: 800% 100%;
-    animation: rainbow 5s linear infinite;
+    background-size: 2000% 100%;
+    animation: rainbow 2s linear infinite;
     padding: 20px 0;
     color: #fff;
     display: flex;
@@ -92,13 +92,12 @@ body {
 }
 
 /* Hero section styles */
+/* Hero styles */
 .hero {
-    background: linear-gradient(to right, #ff00ff, #0000ff, #00ffff, #00ff00, #ffff00, #ff0000);
-    background-size: 800% 100%;
-    animation: rainbow 5s linear infinite;
-    text-align: center;
-    padding: 100px 0;
+    background-color: #222;
+    padding: 80px 0;
     color: #fff;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
