@@ -28,37 +28,56 @@ body {
     height: 100%;
 }
 
-/* Header styles */
-header {
-    background-color: #222;
-    padding: 10px 0;
+.header {
+    background: linear-gradient(to right, #ff00ff, #0000ff, #00ffff, #00ff00, #ffff00, #ff0000);
+    background-size: 600% 100%;
+    animation: rainbow 10s linear infinite;
+    padding: 20px 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.logo {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .nav-links {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    align-items: center;
 }
 
 .nav-links li {
-    display: inline-block;
-    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #888;
 }
 
 .nav-links li:last-child {
     margin-right: 0;
-}
-
-.nav-links a {
-    color: #fff;
-    text-decoration: none;
-    padding: 5px 10px;
-    border-radius: 3px;
-    transition: background-color 0.3s ease;
-}
-
-.nav-links a:hover {
-    background-color: #333;
 }
 
 .logo {
