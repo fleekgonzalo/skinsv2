@@ -24,8 +24,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    /* height: 100vh; /* Set the container height to 100% of the viewport height */ */
-    overflow-y: auto; /* Enable vertical scrolling for the container */
 }
 
 /* Header styles */
@@ -107,6 +105,9 @@ header {
 /* Skins section styles */
 .skins {
     padding: 50px 0;
+    overflow-y: auto; /* Enable vertical scrolling for the skins */
+    display: flex;
+    align-items: flex-start;
 }
 
 .skin {
