@@ -105,9 +105,12 @@ header {
 /* Skins section styles */
 .skins {
     padding: 50px 0;
-    overflow-y: auto; /* Enable vertical scrolling for the skins */
+    text-align: center;
     display: flex;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: 600px; /* Set a fixed height for the container */
+    overflow-y: auto; /* Enable vertical scrolling */
 }
 
 .skin {
